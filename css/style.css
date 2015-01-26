@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Handcoded by Bruce Lui */
+
+body {
+	font-family:'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	letter-spacing: 4px;
+	color:#232323;
+	background-color: #FCFCFC;
+}
+
+.main_space {
+	height: 200px;
+	font-size: 12px;
+	color: #7A7A7A;
+	text-align: center;
+}
+
+.main_space p {padding: 20px 0px 20px 0px;}
+
+hr {
+	width: 15%;
+}
+
+.quiz_btn, .quiz_btn1, .quiz_btn2, .quiz_btn3, .quiz_btn4 {
+	width: 100%;
+	height: 90px;
+	display: block;
+}
+
+.quiz_btn a, .quiz_btn1 a, .quiz_btn2 a, .quiz_btn3 a, .quiz_btn4 a {
+	width: 90%;
+	padding: 10px 10px 60px 10px;
+	display: block;
+	color: #232323;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.quiz_btn1 {
+	background-color: #FFF660;
+}
+
+.quiz_btn2 {
+	background-color: #00C0FF;
+}
+
+.quiz_btn3 {
+	background-color: #60CA02;
+}
+
+.quiz_btn4 {
+	background-color: #E6173E;
+}
