@@ -45,7 +45,9 @@ hr {
 }
 
 .quiz_btn1 {
-	background-color: #FFF660;
+	background-image: url(../images/bg1.jpg);
+	background-position: center center;
+	background-size: cover;
 }
 
 .quiz_btn2 {
