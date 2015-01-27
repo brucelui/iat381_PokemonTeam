@@ -31,13 +31,13 @@ hr {
 .quiz_btn, .quiz_btn1, .quiz_btn2, .quiz_btn3, .quiz_btn4 {
 	width: 100%;
 	height: auto;
-	min-height: 120px;
+	min-height: 110px;
 	display: block;
 }
 
 .quiz_btn a, .quiz_btn1 a, .quiz_btn2 a, .quiz_btn3 a, .quiz_btn4 a {
 	width: 90%;
-	padding: 20px 10px 50px 10px;
+	padding: 20px 10px 40px 10px;
 	display: block;
 	color: #303030;
 	line-height: 28px;
