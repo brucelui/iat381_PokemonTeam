@@ -11,6 +11,14 @@ body {
 	background-color: #FCFCFC;
 }
 
+a {
+	text-decoration: none;
+	color: #FCFCFC;
+	display: block;
+}
+
+/* ---- MAIN ---- */
+
 .main_space {
 	height: auto;
 	font-size: 14px;
@@ -28,20 +36,18 @@ hr {
 	width: 15%;
 }
 
-.quiz_btn, .quiz_btn1, .quiz_btn2, .quiz_btn3, .quiz_btn4 {
+.quiz_btn, .quiz_btn1, .quiz_btn2, .quiz_btn3, .quiz_btn4, .quiz_btn5 {
 	width: 100%;
 	height: auto;
-	min-height: 100px;
+	min-height: 110px;
 	display: block;
 }
 
-.quiz_btn a, .quiz_btn1 a, .quiz_btn2 a, .quiz_btn3 a, .quiz_btn4 a {
+.quiz_btn a, .quiz_btn1 a, .quiz_btn2 a, .quiz_btn3 a, .quiz_btn4 a, .quiz_btn5 a {
 	width: 90%;
-	padding: 20px 10px 50px 10px;
-	display: block;
+	padding: 20px 10px 60px 10px;
 	color: #303030;
 	line-height: 28px;
-	text-decoration: none;
 }
 
 .quiz_btn1 {
@@ -66,4 +72,37 @@ hr {
 	background-image: url(../images/bg4.jpg);
 	background-position: center center;
 	background-size: cover;
+}
+
+/* ---- QUIZ ---- */
+
+.QA_container {
+	width: 100%;
+	height: 600px;
+	padding: 10px;
+	background-image: url(../images/bg1.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.start_content {
+	width: 90%;
+	margin: 50% auto 0px auto;
+}
+
+.whitebutton {
+	width: 200px;
+	height: auto;
+	text-align: center;
+	color: #303030;
+	display: block;
+	background-color: #FCFCFC;
+	padding: 20px;
+	margin: 0px auto 0px auto;
+}
+
+h1 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #FCFCFC;
 }
