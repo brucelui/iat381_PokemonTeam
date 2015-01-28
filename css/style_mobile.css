@@ -19,17 +19,26 @@ a {
 	display: block;
 }
 
+a:hover, a:visited, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
 /* ---- MAIN ---- */
+
+.ng-scope .main_space {
+	height: auto;
+}
 
 .main_space {
 	height: auto;
-	font-size: 14px;
-	color: #7A7A7A;
-	text-align: center;
 }
 
 .main_content {
 	padding:60px 0px 60px 0px;
+	font-size: 14px;
+	color: #7A7A7A;
+	text-align: center;
 }
 
 .main_space p {padding: 20px 0px 20px 0px;}
@@ -78,7 +87,7 @@ hr {
 
 /* ---- QUIZ ---- */
 
-.quizA {
+.ng-scope, .quizA {
 	height: 100%;
 }
 
