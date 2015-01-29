@@ -7,6 +7,10 @@ quizApp.config(function($routeProvider) {
       templateUrl: 'app_pages/quizA_start.html'
     })
 
+    .when('/q1', {
+      templateUrl: 'app_pages/quizA_1.html'
+    })
+
     .otherwise( {
     	templateUrl: 'app_pages/main.html'
     })
