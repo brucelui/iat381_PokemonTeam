@@ -41,8 +41,6 @@ a:hover, a:visited, a:active {
 	text-align: center;
 }
 
-.main_space p {padding: 20px 0px 20px 0px;}
-
 hr {
 	width: 15%;
 }
@@ -129,4 +127,11 @@ hr {
 	background-color: rgba(255,255,255,0.65);
 	padding: 55px 0px 40px 0px;
 	margin: 5px 0px 5px 0px;
+}
+
+.result_content img{
+	text-align: center;
+	width:50%;
+	padding: 0px auto 0px auto;
+	margin: 20px auto 20px auto;
 }
