@@ -34,4 +34,8 @@ quizApp.controller('QuizController', function($scope) {
 
 quizApp.controller('QuizAController', function($scope) {
   $scope.quizData = {};
+  $scope.processQuiz = function() {
+        alert('awesome!');  
+    };
+    
 });
