@@ -1,11 +1,12 @@
-var quizApp = angular.module('quiz', ['ngRoute']);
+var quizApp = angular.module('quizApp', ['ngRoute']);
+
 
 quizApp.config(function($routeProvider) {
   //set up routes
   $routeProvider
     .when('/', {
-      controller: 'QuizController',
-      templateUrl: 'app_pages/main.html'
+      templateUrl: 'app_pages/main.html',
+      controller: 'mainController'
     })
 
     .when('/type', {
@@ -13,29 +14,17 @@ quizApp.config(function($routeProvider) {
     })
 
     .when('/q1', {
-      controller: 'QuizAController',
-      templateUrl: 'app_pages/quizA_1.html'
+      templateUrl: 'app_pages/quizA_1.html',
+      controller: 'quizQ1Controller'
     })
 
     .when('/result', {
-      controller: 'QuizController',
+
       templateUrl: 'app_pages/quizA_result.html'
     })
 
     .otherwise( {
     	redirectTo: '/'
     })
-});
 
-
-quizApp.controller('QuizController', function($scope) {
-  $scope.quizData = {};
-});
-
-quizApp.controller('QuizAController', function($scope) {
-  $scope.quizData = {};
-  $scope.processQuiz = function() {
-        alert('awesome!');  
-    };
-    
 });
