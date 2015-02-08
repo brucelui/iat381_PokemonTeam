@@ -129,6 +129,10 @@ hr {
 	margin: 5px 0px 5px 0px;
 }
 
+.result_content {
+	height: 400px;
+}
+
 .result_content img{
 	text-align: center;
 	width:50%;
